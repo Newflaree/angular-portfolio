@@ -1,0 +1,81 @@
+<aside class='aside'>
+
+  <!-- Logo -->
+  <div class='logo'>
+    <a routerLink="/home">Newflare</a>
+  </div>
+  <!-- Logo -->
+
+  <!-- Nav Toggle Btn -->
+  <div (click)="showNav()"
+       class='nav-toggler'>
+    <span></span>
+  </div>
+  <!-- Nav Toggle Btn -->
+
+  <!-- Navbar -->
+  <ul class='nav'>
+
+    <li>
+      <a routerLinkActive="active" 
+         routerLink="/home"
+         (click)="showNav()">
+
+        <i class='fa fa-home'></i> 
+        Inicio
+      </a>
+    </li>
+    
+    <li>
+      <a routerLinkActive="active" 
+         routerLink="/about"
+         (click)="showNav()">
+
+        <i class='fa fa-user'></i> 
+        Sobre mi
+
+      </a>
+    </li>
+
+    <li>
+      <a routerLinkActive="active" 
+         routerLink="/services"
+         (click)="showNav()">
+
+        <i class='fa fa-list'></i> 
+        Servicios
+      
+      </a>
+    </li>
+    
+    <li>
+      <a routerLinkActive="active" 
+         routerLink="/portfolio"
+         (click)="showNav()">
+
+        <i class='fa fa-envelope'></i> 
+        portfolio
+      </a>
+    </li>
+    
+    <li>
+      <a routerLinkActive="active" 
+         routerLink="/contact"
+         (click)="showNav()">
+
+        <i class='fa fa-comments'></i> 
+        Contacto
+      </a>
+    </li>
+
+  </ul>
+
+  <!-- Navbar -->
+ 
+  <!-- Copyright -->
+  <div class='copyright-text'>
+    &copy;{{ date }} Newflare Portafolio
+  </div>
+  <!-- Copyright -->
+
+</aside>

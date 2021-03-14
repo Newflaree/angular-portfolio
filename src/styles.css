@@ -1,1 +1,223 @@
 /* You can add global styles to this file, and also import other style files */
+/* ============================== */
+/*              Fonts             */
+/* ============================== */
+/*    Font Awesome Free Icon      */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*          Google fonts          */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+/* ============================== */
+/*              Fonts             */
+/* ============================== */
+
+
+
+
+
+/* ============================== */
+/*           Animated             */
+/* ============================== */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+/* ============================== */
+/*           Animated             */
+/* ============================== */
+
+
+
+
+
+/* ============================== */
+/*        General Styles          */
+/* ============================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2fc;
+  margin: 0px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+::before, ::after {
+  box-sizing: border-box;
+}
+
+.main-content {
+  margin-left: 270px;
+}
+
+.section {
+  background-color: #f2f2fc;
+  padding-right: 5%;
+  min-height: 100vh; 
+  display: block;
+  padding: 0px 30px;
+  position: fixed;
+  left: 270px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.section-title {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: #2f2e4d;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  position: relative;
+}
+
+.section-title h2::before {
+  content: '';
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: #4caf50;
+} 
+
+.section-title h2::after {
+  content: '';
+  height: 4px;
+  width: 25px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  margin-top: 8px;
+  background-color: #4caf50;
+} 
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+}
+
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.shadow-dark {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.btn {
+  font-size: 16px;  
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: #fff;
+  border-radius: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.active {
+  padding-left: 5px;
+  color: #4caf50;
+}
+
+
+
+/* Responsive */
+@media ( max-width: 1199px ) {
+  .section .container {
+    padding-top: 70px;
+  }
+  
+  .main-content {
+    margin-left: 0px;
+  }
+
+  .section {
+    left: 0px;
+  }
+
+  .section.open {
+    left: 270px;
+  }
+}
+/* Responsive */
+
+/* ============================== */
+/*        General Styles          */
+/* ============================== */

@@ -1,0 +1,107 @@
+/* ============================== */
+/*        Portfolio Section       */
+/* ============================== */
+.portfolio .container {
+  padding-bottom: 40px;
+}
+
+.portfolio .portfolio-item {
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item-inner {
+  border: 1px solid #d5d4e4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img {
+  position: relative;
+  overflow: hidden;
+} 
+
+.portfolio .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+} 
+
+.portfolio .portfolio-item-inner:hover .portfolio-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+} 
+
+.portfolio .portfolio-item-inner .portfolio-img .portfolio-date {
+  position: absolute;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  left: 15px;
+  bottom: 15px;
+  background-color: #4caf50;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info {
+  padding: 30px 15px; 
+  background-color: #fef9ff;
+} 
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2f2e4d;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+} 
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-desc {
+  font-size: 16px;
+  line-height: 25px;
+  color: #4f4e70;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags {
+  font-size: 14px;
+  line-height: 25px;
+  color: #4f4e70;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info .portfolio-tags a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #4caf50;
+} 
+
+
+
+/* Responsive */
+@media ( max-width: 991px ){
+  .portfolio .portfolio-item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+} 
+
+@media ( max-width: 767px ) {
+  .portfolio .portfolio-item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* Responsive */
+
+/* ============================== */
+/*        Portfolio Section       */
+/* ============================== */
