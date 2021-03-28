@@ -21,5 +21,4 @@ export class PreloaderComponent implements OnInit {
       this.loading = false;
     }, 1000);
   }
-
 }

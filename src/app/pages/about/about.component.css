@@ -31,42 +31,13 @@
   margin: 0px;
 }
 
-.about .about-content .personal-info {
-  -ms-flex: 0 0 60%;
-  flex: 0 0 60%;
-  max-width: 60%;
-  margin-top: 40px;
+.about .about-content .buttons {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.about .about-content .personal-info .info-item {
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%; 
-}
-
-.about .about-content .personal-info .info-item p {
-  font-weight: 600;
-  padding: 10px 0px;
-  font-size: 16px;
-  color: #2f2e4d;
-  margin: 0px;
-  border-bottom: 1px solid #e9deec;
-}
-
-.about .about-content .personal-info .info-item p span {
-  font-weight: 400;
-  color: #4f4e70;
-  margin-left: 4px;
-  display: inline-block;
-}
-
-.about .about-content .personal-info .buttons {
-  margin-left: 5%;
-  margin-top: 30px;
-}
-
-.about .about-content .personal-info .buttons .btn {
-  margin-right: 15px;
+.about .about-content .buttons .btn {
+  margin-left: 3%;
   margin-top: 10px;
 }
 
@@ -75,8 +46,6 @@
   flex: 0 0 40%;
   max-width: 40%;
   margin-top: 40px;
-  margin-left: 3%;
-  margin-right: 3%;
 }
 
 .about .about-content .skills .skill-item {
