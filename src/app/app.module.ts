@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 
-//Routes
+// Routes
 import { AppRoutingModule } from './app-routing.module';
 
-// Pages
+// Components
 import { ComponentsModule } from './components/components.module';
+
+// Pages
 import { PagesModule } from './pages/pages.module';
 
 @NgModule({
@@ -18,7 +21,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     PagesModule,
     ComponentsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

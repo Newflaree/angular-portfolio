@@ -16,7 +16,6 @@ export class NavbarComponent implements OnInit {
 
   showNav() {
     const nav = document.querySelector( 'aside' );
-
     nav.classList.toggle( 'open' );
   }
 }

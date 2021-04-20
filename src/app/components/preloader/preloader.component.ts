@@ -18,7 +18,12 @@ export class PreloaderComponent implements OnInit {
 
   loaderHiiden() {
     setTimeout( () => {
-      this.loading = false;
+      const preloader = document.querySelector( '.preloader' );
+      preloader.classList.add( 'opacity-0' );
     }, 1000);
+
+    setTimeout( () => {
+      this.loading = false
+    }, 1700);
   }
 }
