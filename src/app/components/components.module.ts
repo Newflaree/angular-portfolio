@@ -5,11 +5,12 @@ import { RouterModule } from '@angular/router';
 // Components
 import { NavbarComponent } from './navbar/navbar.component';
 import { PreloaderComponent } from './preloader/preloader.component';
+import { ChangeThemeComponent } from './change-theme/change-theme.component';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent, PreloaderComponent],
+  declarations: [NavbarComponent, PreloaderComponent, ChangeThemeComponent],
   exports: [
     NavbarComponent,
     PreloaderComponent
