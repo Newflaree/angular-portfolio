@@ -103,6 +103,12 @@
   background-color: #4caf50;
 }
 
+.aside .nav-toggler.open span::before {
+  -webkit-transform: rotate( 45deg );
+  transform: rotate( 45deg );
+  top: 0px;
+}
+
 .aside .nav-toggler span::after {
   content: '';
   height: 2px;
@@ -112,6 +118,13 @@
   left: 0px;
   background-color: #4caf50;
 }
+
+.aside .nav-toggler.open span::after {
+  -webkit-transform: rotate( -45deg );
+  transform: rotate( -45deg );
+  top: 0px;
+}
+
 /* Nav Toggler */
 
 
