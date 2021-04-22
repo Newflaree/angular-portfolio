@@ -190,11 +190,6 @@ body {
   transform: scale(1.05);
 }
 
-.active {
-  padding-left: 5px;
-  color: #4caf50;
-}
-
 .hidden {
   display: none;
 }
@@ -224,11 +219,6 @@ body {
 /* Dark Body */
 body.dark .section {
   background-color: #151515;
-}
-
-body.dark .active {
-  padding-left: 5px;
-  color: #4caf50;
 }
 /* Dark Body */
 /* ============================== */
