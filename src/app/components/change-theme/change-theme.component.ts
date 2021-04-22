@@ -20,5 +20,6 @@ export class ChangeThemeComponent implements OnInit {
       this.darkSkin = false;
       document.body.className = '';
     } 
+
   }
 }
