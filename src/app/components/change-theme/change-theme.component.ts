@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-change-theme',
   templateUrl: './change-theme.component.html',
-  styleUrls: ['./change-theme.component.css']
 })
 export class ChangeThemeComponent implements OnInit {
+  darkSkin: boolean = false;
 
   constructor() { }
 
@@ -13,7 +13,12 @@ export class ChangeThemeComponent implements OnInit {
   }
 
   changeTheme() {
-    console.log( 'Click' );
+    if ( this.darkSkin === false ) {
+      this.darkSkin = true;
+      document.body.className = 'dark';
+    } else {
+      this.darkSkin = false;
+      document.body.className = '';
+    } 
   }
-
 }

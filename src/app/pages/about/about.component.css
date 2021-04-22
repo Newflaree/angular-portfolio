@@ -155,6 +155,27 @@
 }
 /* Responsive */
 
+/* Dark Body */
+body.dark .about .about-content .timeline {
+  background-color: #222;
+}
+
+body.dark .about .about-content .timeline .timeline-text,
+body.dark .about .about-content .timeline .timeline-date,
+body.dark .about .about-content .about-text p {
+  color: #e9e9e9;
+}
+
+body.dark .about .about-content .timeline .timeline-title,
+body.dark .about .about-content h3.title,
+body.dark .about .about-content .about-text h3 {
+  color: #ffe;
+}
+
+body.dark .about .about-content .timeline {
+  border-color: #555;
+}
+/* Dark Body */
 /* ============================== */
 /*          About Section         */
 /* ============================== */

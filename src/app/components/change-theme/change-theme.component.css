@@ -1,3 +1,6 @@
+/* ============================== */
+/*           Change Theme         */
+/* ============================== */
 .theme-btn {
   margin-bottom: 40px;
 }
@@ -48,3 +51,14 @@ input[ type = 'checkbox' ]::before {
 input:checked[ type = 'checkbox' ]::before {
   left: 20px;
 }
+
+
+/* Dark Body */
+body.dark .theme-btn a {
+  color: #ffe;
+}
+/* Dark Body */
+/* ============================== */
+/*           Change Theme         */
+/* ============================== */
+

@@ -116,6 +116,11 @@
 } 
 /* Responsive */
 
+/* Dark Body */
+body.dark .contact .contact-info-item h4 {
+  color: #ffe;
+}
+/* Dark Body */
 /* ============================== */
 /*        Contact Section         */
 /* ============================== */
