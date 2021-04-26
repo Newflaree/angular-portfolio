@@ -1187,3 +1187,70 @@ body.dark .service .service-item .service-item-inner {
 /* ============================== */
 /*        Service Section         */
 /* ============================== */
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* ============================== */
+/*        Lightbox Section        */
+/* ============================== */
+/* Lightbox */
+.lightbox {
+  position: fixed;  
+  display: flex;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox .close-lightbox {
+  height: 35px;
+  width: 35px;
+  background-color: #FFF;
+  color: #4CAF50;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 101;
+}
+
+.lightbox .light-container {
+  background-color: #ccc;
+  width: 90%;
+  height: 80%;
+}
+
+.lightbox .lightbox-info {
+  display: flex;
+  flex: 0 0 50%;
+  max-width: 50%;
+  background-color: blue;
+  margin: 40px;
+}
+
+.lightbox .lightbox-info p {
+  background-color: red;
+  padding-top: 40px;
+  margin: 40px; 
+}
+
+.lightbox .lightbox-img {
+  display: flex;
+  flex: 0 0 50%;
+  max-width: 50%;
+  background-color: green;
+  margin: 40px;
+}
+/* ============================== */
+/*        Lightbox Section        */
+/* ============================== */

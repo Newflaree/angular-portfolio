@@ -6,13 +6,20 @@ import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PreloaderComponent } from './preloader/preloader.component';
 import { ChangeThemeComponent } from './change-theme/change-theme.component';
+import { LightboxComponent } from './lightbox/lightbox.component';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent, PreloaderComponent, ChangeThemeComponent],
+  declarations: [
+    NavbarComponent, 
+    PreloaderComponent, 
+    ChangeThemeComponent, 
+    LightboxComponent
+  ],
   exports: [
     NavbarComponent,
+    LightboxComponent,
     PreloaderComponent
   ],
   imports: [
