@@ -19,12 +19,10 @@ export class ServicesComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    /*
     this.servicesService.getService()
     .subscribe( resp => {
       this.services = resp.services;
     });
-    */
   }
 
 }
