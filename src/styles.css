@@ -993,6 +993,10 @@ body.dark .home .intro h1 {
   background-color: #4caf50;
 }
 
+.portfolio .portfolio-item-inner .portfolio-img .portfolio-date a.second {
+  bottom: 50px;
+}
+
 .portfolio .portfolio-item-inner .portfolio-info {
   padding: 30px 15px; 
   background-color: #fef9ff;
